@@ -18,11 +18,11 @@ end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
   "Write your SQL query Here"
-  "SELECT user.name, age, pledge.amount
+  "SELECT user.name, age, SUM(pledge.amount)
   FROM users
   INNER JOIN pledges
   ON user.id = pledges.user_id
-  GROUP BY user.id
+  GROUP BY user.name
   ORDER BY user.name;"
 end
 
