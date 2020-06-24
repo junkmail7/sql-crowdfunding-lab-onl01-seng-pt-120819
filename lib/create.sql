@@ -1,0 +1,2 @@
+CREATE TABLE table1 (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, aisle INTEGER);
+ 
