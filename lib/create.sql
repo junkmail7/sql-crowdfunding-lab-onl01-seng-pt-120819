@@ -1,4 +1,4 @@
-CREATE TABLE table1 (id INTEGER PRIMARY KEY, name TEXT, columna INTEGER, columnb INTEGER);
-CREATE TABLE table2 (id INTEGER PRIMARY KEY, name TEXT, columnc INTEGER, columnd INTEGER);
-CREATE TABLE table3 (id INTEGER PRIMARY KEY, name TEXT, columne INTEGER, columnf INTEGER);
+CREATE TABLE project (id INTEGER PRIMARY KEY, title TEXT, fundinggoal INTEGER, columnb INTEGER);
+CREATE TABLE user (id INTEGER PRIMARY KEY, name TEXT, columnc INTEGER, columnd INTEGER);
+CREATE TABLE pledge (id INTEGER PRIMARY KEY, name TEXT, columne INTEGER, columnf INTEGER);
  
