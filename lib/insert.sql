@@ -1,0 +1,1 @@
+INSERT INTO projects VALUES (1, "Apples", 2, 1);
